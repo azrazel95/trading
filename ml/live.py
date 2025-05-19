@@ -5,11 +5,7 @@ import time
 from datetime import datetime
 from sklearn.preprocessing import StandardScaler
 
-# === Assume LSTM model and XGBoost model already trained and loaded ===
-# model: trained LSTM
-# lstm_feature_model: Model to extract LSTM embeddings
-# xgb: trained XGBoost model
-# scaler: trained feature scaler
+
 
 # === Rolling buffer of the last 50 minutes ===
 rolling_buffer = []
